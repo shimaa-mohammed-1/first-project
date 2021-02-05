@@ -1,0 +1,404 @@
+*
+{
+     box-sizing: border-box;
+    }
+body
+{
+    font-family: 'Alegreya', "serif";
+    margin: 0;
+    padding: 0;  
+}
+/****************************************first section************************/
+.cover
+{ 
+    
+background-image: url( ../images/background.jpg) ;
+height:100vh ;
+background-size:100% 100%;
+font-family: 'Alegreya Sans' ;
+overflow: auto;
+}
+
+.cover-caption
+{
+    color:white;
+    width:600px;
+    text-align:center;
+    margin: auto;
+    position: relative;
+    top: 30%;
+    font-size: 2.3 rem;
+    padding: 30px;
+   
+}
+
+
+ .btn
+{
+    padding: 15px 28px;
+    font-size: 16px;
+    border-radius: 5%;
+    border:none
+
+
+} 
+.btn1
+{
+    background-color:#8E7754 ;
+    transition: background-color 1s  ;
+    border:#8E7754  solid 2px;
+
+
+}
+.btn1:hover
+{
+    background-color:white ;
+    border:white solid 2px;
+
+
+}
+.btn2
+{
+    background-color: transparent;
+    border:white solid 2px;
+    color: white;
+    transition: background-color 1s  ;
+}
+
+.btn2:hover
+{
+    background-color:white ;
+    color: black;
+
+}
+
+/****************************************END************************/
+
+
+/****************************************who  we  are section************************/
+.container
+{
+    overflow: auto;
+    margin:3% auto;
+    width: 90%;
+    
+}
+.whoWeAre .whoWeAre-image
+{
+    width:50%;
+    margin-top:20px ;
+    float: left;
+}
+.whoWeAre .whoWeAre-image img
+{
+    width:100%
+}
+
+.whoWeAre .whoWeAre-info
+{
+    width:50%;
+    float: left;
+    padding: 3%;
+}
+.whoWeAre-info h3
+{
+    font-weight: 80;
+     margin-top: 60px; 
+      font-size:30px;
+
+}
+.whoWeAre-info p
+{
+    color:  #686868;
+    font-weight:400;
+    line-height: 1.86em;
+    font-size: 17px;
+
+}
+.whoWeAre-info .list {
+    color:  #686868;
+    font-weight:400;
+    line-height: 3em;
+    font-size: 17px;
+     padding-left:40px;
+    }
+    .whoWeAre-info li
+    {
+        list-style-type: none;
+        
+
+    }
+    .whoWeAre-info li i
+    {
+        color: #8E7754 ;
+        border:1px solid #8E7754 ;
+        border-radius: 50%;
+        padding: 5px;
+        margin-right: 20px;
+
+    }
+
+
+
+/****************************************END************************/
+
+/****************************************location section************************/
+
+
+ .location-image
+{
+    width:50%;
+    float: left;
+    margin-top: 70px;
+    
+
+
+}
+ .location-image img
+{
+    width: 100%;
+
+}
+
+.location-info
+{
+    width:50%;
+    float: left;
+    padding: 3%;
+
+}
+
+.location-info h3
+{
+    font-weight: 800;
+     margin-top: 60px; 
+      font-size:30px;
+
+}
+.location-info h3 span
+{
+    color: red;
+    font-size: 3rem;
+}
+.location-info p
+{
+    color:  #686868;
+    font-weight:400;
+    line-height: 1.86em;
+    font-size: 17px;
+
+}
+
+
+/****************************************END************************/
+
+/****************************************products  section************************/
+
+
+ 
+.products
+{
+overflow: auto;
+ text-align:center;
+margin-top: 6rem;
+
+}
+
+
+.product
+{
+     width:33.333%;
+    float:left;
+     text-align: center;
+    box-sizing: border-box;
+    padding:20px ;
+
+}
+
+
+.product img {width:100%}
+.products-heading {font-size: 30px;}
+.products-subtitle {color: #888; font-size: 17px; }
+
+
+
+/****************************************END************************/
+
+/****************************************contact section************************/
+
+ 
+.contact-caption
+{
+    width:50%;
+    float: left;
+    padding: 3%;
+}
+
+.map
+{
+    width:50%;
+    float: left;
+    position: relative;
+    margin-top: 10%;
+}
+.map  img
+{
+    width: 20%;
+    position: absolute;
+    top:50% ;
+    left: 50%;
+}
+.contact-caption h3
+{
+    font-weight: 800;
+     margin-top: 60px; 
+      font-size:30px;
+}
+
+
+.contact-caption p
+{
+    color:  #686868;
+    font-weight:400;
+    line-height: 1.86em;
+    font-size: 17px;
+
+}
+.contact-caption li
+{
+    list-style: none;
+    color:  #686868;
+    
+
+} 
+.contact-caption li i
+{
+    background-color:#8E7754 ;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 5px 10px;
+    color: white;
+}
+
+
+
+/****************************************END************************/
+/****************************************about us section************************/
+
+.someInfo 
+{
+    background-color: #403D38;
+    color: #96967E;
+    padding: 1%;
+}
+
+.title-1,.title-2,.title-3,.title-4
+{
+    width: 25%;
+    float: left;
+    padding: 0 1%;
+}
+
+.someInfo .title-2 p   ,.someInfo .title-3 p
+{
+    border-bottom: .1px solid  wheat;
+
+
+}
+
+.someInfo  i  
+{
+    padding: 3%;
+}
+
+/* .someInfo .title-2 p  .remove-border  ,.someInfo .title-3 p .remove-border  
+{
+    border-bottom: none;
+} */
+
+.someInfo h4{
+    color: wheat;
+}
+
+.someInfo .title-4
+{
+    position: relative;
+}
+
+.someInfo .map-behind
+{
+    position: absolute;
+    top: 40%;
+    opacity: .3;
+
+
+}
+.someInfo .map-behind img
+{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************************END************************/
+
+/****************************************footer section************************/
+
+footer
+{
+    background-color:#353330;
+    text-align: center;
+    padding: 1%;
+}
+footer p{
+    color: wheat;
+}
+footer .social-icons  
+{
+    list-style: none;
+
+    
+}
+footer  .social-icons  i
+{
+    padding: 10px;
+    margin: 10px;
+    color: #8c8a86;
+    background-color:#484540;
+    border-radius: 50%;
+    
+}
+footer  .social-icons  .fa-facebook-f:hover
+{
+    background-color: #3C578F;
+    color: white;
+}
+footer  .social-icons  .fa-google-plus-g:hover
+{
+    background-color: #DD4B39;
+    color: white;
+}
+footer  .social-icons  .fa-linkedin:hover
+{
+    background-color: #007BB5;
+    color: white;
+}
+footer  .social-icons  .fa-twitter:hover
+{
+    background-color: #00ACED;
+    color: white;
+}
+
+/****************************************END************************/
+
+
+
